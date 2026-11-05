@@ -3,7 +3,7 @@ import { createClient } from '@supabase/supabase-js';
 import type { Database } from './types';
 
 const SUPABASE_URL = "https://ucwclmswsmuieaiaasqs.supabase.co";
-const SUPABASE_PUBLISHABLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVjd2NsbXN3c211aWVhaWFhc3FzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU2OTAzOTYsImV4cCI6MjA2MTI2NjM5Nn0.injbgWfWQl1E6HURwFlnkqd8-d6mIJEl_8n3vgY0BUQ";
+const SUPABASE_PUBLISHABLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVjd2NsbXN3c211aWVhaWFhc3FzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU2OTAzOTYsImV4cCI6MjA2MTI2NjM5Nn0.injbgWfWQl1E6HURwFlnkqd8-d6mIJEl_8n3vgY0BUQ"; // gitleaks:allow -- public Supabase anon key; authorization depends on RLS, never service_role.
 
 // Import the supabase client like this:
 // import { supabase } from "@/integrations/supabase/client";

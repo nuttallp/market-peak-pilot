@@ -19,3 +19,15 @@
 dist/
 
 .vscode/
+
+# Local credentials and generated state
+!.env.*.example
+!.env.template
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+node_modules/
+__pycache__/
+.venv/
